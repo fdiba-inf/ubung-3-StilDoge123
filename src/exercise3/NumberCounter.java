@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class NumberCounter {
     public static void main(String[] args) {
         double sum = 0;
-        double count = 0;
-        double countNeg = 0;
-        double countPos = 0;
+        int count = 0;
+        int countNeg = 0;
+        int countPos = 0;
         double avg;
         double n;
         Scanner sc = new Scanner(System.in);
