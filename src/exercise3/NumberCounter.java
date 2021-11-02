@@ -10,8 +10,8 @@ public class NumberCounter {
         double countPos = 0;
         double avg;
         double n;
+        Scanner sc = new Scanner(System.in);
         do {
-            Scanner sc = new Scanner(System.in);
             n = sc.nextDouble();
             if(n==0){
                 break;
